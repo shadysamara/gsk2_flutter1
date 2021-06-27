@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter1/data/students_data.dart';
 import 'package:flutter1/models/item.dart';
+import 'package:flutter1/scaffold_parts/todo_app.dart';
 import 'package:flutter1/widgets/student_widget.dart';
 import 'package:flutter1/widgets/text_widget.dart';
 
@@ -17,7 +18,7 @@ show his average in suitable place
 
 */
 void main() {
-  runApp(MaterialApp(home: Screen1()));
+  runApp(MaterialApp(home: TodoPage()));
 }
 
 //widget
